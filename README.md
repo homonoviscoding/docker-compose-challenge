@@ -23,10 +23,10 @@ In this workshop we're going to look at how to use express with a postgres datab
 8. Run the following database scripts
   * create-books.sql
   * insert-books.sql
-
 9. Update a file `.env` in the __root directory__ of your project with you PostGres Container details. 
-
 10. Type `npm start`, which starts a development server that will reload whenever you make any changes to source files.
+11. Build docker image for current repo `docker-challenge-postgres` 
+12. Run Docker image for `docker-challenge-postgres` part of the docker-compose `docker-compose up`
 
 ## Conclusion
 Create a PR to point to current repo with you changes and docker files. Dockerfile, Docker-compose etc. 
