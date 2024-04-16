@@ -4,13 +4,13 @@ In this workshop we're going to look at how to use express with a postgres datab
 
 ## Learning Objectives
 * Startup PostGres Database as Container
-* Create Docker Image with current Repo
+* Create Docker Image with current Repo `docker-challenge-postgres`
 * Run Image for `docker-challenge-postgres` as a container
 * Make API call to Create, Retrieve all books etc.
 
 ## Setup
 
-1. Fork this repository
+1. Fork this repository `docker-challenge-postgres`
 2. Clone the forked repository onto your local machines
 3. In the root directory, type `npm install`, which installs dependencies for the project
 4. Pull docker Image for PostGres `docker pull postgres`.
