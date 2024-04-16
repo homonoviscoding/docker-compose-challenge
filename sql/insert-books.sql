@@ -1,0 +1,5 @@
+INSERT INTO books (title, type, author, topic, publication_date, pages) VALUES ('voluptatem eligendi cupiditate et', 'Fiction', 'Carolyn Donnelly', 'western', '2020-11-16T21:38:54.789+00:00', 400);
+INSERT INTO books (title, type, author, topic, publication_date, pages) VALUES ('blanditiis consequatur in accusantium autem voluptatem', 'Fiction', 'Carolyn Donnelly', 'western', '2017-05-01T14:06:32.789+01:00', 400);
+INSERT INTO books (title, type, author, topic, publication_date, pages) VALUES ('eligendi consequatur et', 'Fiction', 'Carolyn Donnelly', 'western', '2016-12-24T07:16:51.420+00:00', 400);
+INSERT INTO books (title, type, author, topic, publication_date, pages) VALUES ('ut dolor', 'Fiction', 'Colt Dibbert', 'fantasy', '2012-02-04T04:27:29.083+00:00', 400);
+INSERT INTO books (title, type, author, topic, publication_date, pages) VALUES ('excepturi sed nam recusandae ut sed', 'Fiction', 'Colt Dibbert', 'fantasy', '2017-11-13T12:39:13.886+00:00', 400);
