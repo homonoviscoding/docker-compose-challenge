@@ -14,11 +14,14 @@ const client = {
     })
     // connect a connection
     await dbClient.connect()
-    // execute the query
-    const result = await dbClient.query(str, values)
-    // close the connection
-    await dbClient.end()
-    return result
+    try {
+      // Execute the query
+      const result = await dbClient.query(str, values);
+      return result;
+    } finally {
+      // Ensure connection is closed
+      await dbClient.end();
+    }
   }
 }
 
