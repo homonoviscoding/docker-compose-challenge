@@ -1,3 +1,4 @@
+.env
 .awcache
 *.log
 node_modules
